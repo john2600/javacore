@@ -7,7 +7,7 @@ public class Challenge2 {
 		Map<String, Integer> countWords = new HashMap<>();
 		// 5.Write an array program for the below and don't use any collections.
 		// Input: aabbbccdddaaaa
-		// Output: a2b3c2d3a4
+		// Output: a2b3c2d3a
 		for (int i = 0; i < text.length(); i++) {
 			if (countWords.containsKey(text.charAt(i) + "")) {
 				Integer value = countWords.get(text.charAt(i) + "");
